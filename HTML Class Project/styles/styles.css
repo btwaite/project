@@ -1,0 +1,118 @@
+/* Base styles */
+body {
+    font-family: 'Times New Roman', Times;
+    background-color: white;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: rgb(252, 245, 245);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: black;
+}
+
+section {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: hsla(198, 27%, 47%, 0.949);
+    border-radius: 8px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+section ol {
+    text-align: center;
+    margin-top: 10px;
+}
+
+section ol li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section ol li ul {
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer ol {
+    list-style-type: decimal;
+}
+
+footer ul {
+    list-style-type: circle;
+}
+
+
+.div1 {
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.div3 {
+    background-color: #777;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
